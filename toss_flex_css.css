@@ -1,0 +1,99 @@
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css);
+
+* { 
+    font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif'; 
+}
+
+html, body{
+    height: 100%;
+    display: flex;
+    justify-content : center;
+    align-items : center;
+}
+
+.container{
+    width: 800px;
+    height: 600px;
+    /*border: 3px solid palevioletred;*/
+    border-radius: 5px;
+    display:flex;
+    justify-content : center;
+    align-items: center;
+}
+.container_right{
+    width: 500px;
+    height: 500px;
+    /*border: 3px solid palevioletred;*/
+    border-radius: 5px;
+    display:flex;
+    justify-content : center;
+    align-items: center;
+    flex-direction : column ;
+    justify-content : space-around;
+}
+.container_left{
+    width: 500px;
+    height: 500px;
+    /*border: 3px solid palevioletred;*/
+    border-radius: 5px;
+    display:flex;
+    justify-content : center;
+    align-items: center;
+    flex-direction : column ;
+}
+.left_item_1{
+    width: 400px;
+    height: 100px;
+    /*border: 3px solid palevioletred;*/
+    border-radius: 5px;
+    display:flex;
+    justify-content : center;
+    align-items: left;
+    flex-direction : column ;
+    font-size: 30px;
+    color:rgb(95, 93, 93);
+    font-weight: 700;
+}
+.left_item_2{
+    width: 400px;
+    height: 100px;
+    /*border: 3px solid palevioletred;*/
+    border-radius: 5px;
+    display:flex;
+    justify-content : center;
+    align-items: left;
+    flex-direction : column ;
+    color:rgb(95, 93, 93);
+}
+.left_item_3{
+    width: 400px;
+    height: 100px;
+    /*border: 3px solid palevioletred;*/
+    border-radius: 5px;
+    display:flex;
+    justify-content : left;
+    align-items: center;
+    color:rgb(77, 140, 223);
+    font-weight: 600;
+}
+.right_item_1{
+    width: 300px;
+    height: 60px;
+    /*border: 3px solid palevioletred;*/
+    border-radius: 5px;
+    display:flex;
+    justify-content : center;
+    align-items: center;
+    justify-content : space-between;
+    box-shadow:
+0 30px 60px 12px rgba(0, 0, 33, 0.05),
+0 4px 24px 0 rgba(0, 0, 33, 0.05),
+0 0 1px 0 rgba(0, 0, 33, 0.09) ;
+}
+.logo_1{
+    width: 40px
+}
+.how_much{
+    color:rgb(95, 93, 93);
+    font-weight: 600;
+}
